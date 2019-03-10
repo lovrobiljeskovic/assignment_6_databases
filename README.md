@@ -86,7 +86,7 @@ add fulltext(title)
 ;
 ```
 
-![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/home/lovro/assignment_6_databases/exercise5.png)
+![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/exercise5.png)
 
 
 
