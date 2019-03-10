@@ -11,7 +11,7 @@ and offices.city = customers.city
 ;
 ```
 
-![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/home/lovro/assignment_6_databases/exercise1.png)
+![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/exercise1.png)
 
 
 **Exercise 2**
@@ -36,7 +36,7 @@ group by employees.officeCode
 ;
 ```
 
-![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/home/lovro/assignment_6_databases/exercise3_1.0.png)
+![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/exercise3_1.0.png)
 
 ##windowing
 
@@ -50,7 +50,7 @@ and customers.salesRepEmployeeNumber = employees.employeeNumber
 and employees.officeCode = offices.officeCode
 ```
 
-![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/home/lovro/assignment_6_databases/exercise3_2.0.png)
+![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/exercise3_2.0.png)
 
 
 A group by normally reduces the number of rows returned by rolling them up and calculating averages or sums for each row.  partition by does not affect the number of rows returned, but it changes how a window function's result is calculated.
@@ -66,7 +66,7 @@ and posts.Title like("%grounds%")
 ;
 ```
 
-![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/home/lovro/assignment_6_databases/exercise4.png)
+![alt text](https://raw.githubusercontent.com/lovrobiljeskovic/assignment_6_databases/master/exercise4.png)
 
 
 There is no cost in joining because OwnerUserId is index
